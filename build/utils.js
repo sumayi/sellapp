@@ -1,5 +1,7 @@
 'use strict'
+// 引入nodejs路径模块
 const path = require('path')
+// 引入config目录下的index.js配置文件
 const config = require('../config')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const packageConfig = require('../package.json')
